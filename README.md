@@ -1,18 +1,41 @@
 # Selenium C# Automation Test
 
-This code provides a utility for automating browser actions using Selenium WebDriver with C#. It includes a test that validates functionality by interacting with the [LambdaTest Selenium Playground](https://www.lambdatest.com/selenium-playground/simple-form-demo). It can be integrated into any project requiring browser-based testing with Selenium.
+This project provides an example of automating browser interactions and validating functionality using Selenium WebDriver with C#. It features a test that interacts with the [LambdaTest Selenium Playground](https://www.lambdatest.com/selenium-playground/simple-form-demo) to demonstrate how to input data, trigger actions, and verify results programmatically.
+
+---
+
+## Features
+
+- Automates browser actions such as navigating to a URL, interacting with input fields, and verifying displayed text.
+- Validates end-to-end functionality with NUnit integration.
+- Easy-to-integrate class for adding Selenium WebDriver tests to your C# project.
+
+---
+
+## Prerequisites
+
+To run this project, ensure you have the following installed:
+- [.NET SDK](https://dotnet.microsoft.com/download) (version 5.0 or later)
+- [Visual Studio](https://visualstudio.microsoft.com/) or any C#-compatible IDE
+- [ChromeDriver](https://chromedriver.chromium.org/downloads) compatible with your installed Chrome browser
+- NuGet packages:
+  - Selenium.WebDriver
+  - Selenium.WebDriver.ChromeDriver
+  - NUnit (testing framework)
+
+---
 
 ## Integration
 
-To integrate the Selenium automation test into your project, follow these steps:
+To integrate this Selenium automation test into your project:
+1. Copy the project files to your test folder.
+2. Import the `SeleniumTests` class into your testing framework.
 
-1. Copy the project files into your project's test folder.
-2. Import the `SeleniumTests` class where needed.
+---
 
-## License
+## How to Run the Test
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+1. Clone this repository or copy the files into your project.
+2. Open the project in Visual Studio.
+3. Build and run the project
+   
